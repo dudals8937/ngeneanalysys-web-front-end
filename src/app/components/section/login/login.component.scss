@@ -1,7 +1,10 @@
+.section_login {
+  margin-top: 200px;
+}
 :host {
   display: flex;
   justify-content: center;
-  margin: 100px 0px;
+  height: 80vh;
 }
 
 .mat-form-field {
