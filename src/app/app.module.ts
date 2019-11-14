@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MaterialModules } from './material.module';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 
@@ -20,6 +21,7 @@ import { SectionModule } from './components/section/section.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModules,
+    HttpClientModule,
     LayoutModule,
     SectionModule
   ],

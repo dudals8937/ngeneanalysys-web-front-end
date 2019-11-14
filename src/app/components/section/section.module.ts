@@ -7,6 +7,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './login/login.component';
 import { SectionComponent } from './section.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { LoginService } from 'src/app/service/login.service';
+import { AuthService } from 'src/app/service/auth.service';
 
 const routes: Routes = [
   {
@@ -34,6 +36,10 @@ const routes: Routes = [
   exports: [
     SectionComponent,
     RouterModule
+  ],
+  providers: [
+    LoginService,
+    AuthService
   ]
 })
 export class SectionModule { }
